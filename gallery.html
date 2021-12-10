@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header>
+        <H1><a href="index.html">Middletown Animal Shelter</a></H1>
+        <nav>
+            <ul>
+                <li><a href="gallery.html">Pet gallery</a></li>
+                <li><a href="eventspage.html">Events</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Gallery</h2>
+        <p>These are animals that are currently for adoption. If you would like to meet them in person feel free to contact us!</p>
+        <picture>
+            <source srcset="images/chin_small.png" media="(max-width:500px)">    
+            <source srcset="images/chin_mid.png" media="(max-width:800px)">   
+
+            <img src="images/chin_org.png" alt="chin" height="400">
+            
+        </picture>
+        
+        <picture>
+            <source srcset="images/dog_small.jpg" media="(max-width:500px)">    
+            <source srcset="images/dog_mid.jpg" media="(max-width:800px)">   
+
+            <img src="images/dog_org.jpg" alt="dog" width="525">
+        </picture>
+        <br> <a href="https://en.wikipedia.org/wiki/Animal_shelter">History of Animal shelters</a>
+    </main>
+</body>
+</html>
